@@ -11,6 +11,8 @@ wheels/
 
 # Notebook plot-data caches
 figures/_*.npz
+figures/*.png
+figures/*.pdf
 
 .claude/
 .vscode/
