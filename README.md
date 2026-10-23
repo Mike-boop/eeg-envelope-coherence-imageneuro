@@ -1,4 +1,6 @@
-# EEG Envelope Coherence Imaging Neuroscience
+# EEG Envelope Coherence Analysis
+
+Code for our manuscript ``Does the frequency dependence of EEG-speech envelope tracking reflect the rates of speech units or pitch?''
 
 ## Project structure
 
