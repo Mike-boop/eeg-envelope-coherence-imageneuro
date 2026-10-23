@@ -1,5 +1,5 @@
 [project]
-name = "eeg-envelope-coherence-neuroimage"
+name = "eeg-envelope-coherence-imageneuro"
 version = "0.1.0"
 description = "EEG envelope coherence analysis project"
 readme = "README.md"

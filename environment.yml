@@ -1,4 +1,4 @@
-name: eeg-envelope-coherence-neuroimage
+name: eeg-envelope-coherence-imageneuro
 channels:
   - conda-forge
   - defaults

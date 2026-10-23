@@ -1,4 +1,4 @@
-# EEG Envelope Coherence Neuroimage
+# EEG Envelope Coherence Imaging Neuroscience
 
 ## Project structure
 
@@ -26,19 +26,13 @@ Or create a conda environment from the repository config:
 
 ```bash
 conda env create -f environment.yml
-conda activate eeg-envelope-coherence-neuroimage
+conda activate eeg-envelope-coherence-imageneuro
 ```
 
 Run tests:
 
 ```bash
 pytest
-```
-
-Run the example entrypoint:
-
-```bash
-python main.py
 ```
 
 Forced alignment workflow:

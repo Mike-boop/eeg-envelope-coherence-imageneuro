@@ -27,4 +27,4 @@ def test_main_script_runs():
     )
 
     assert result.returncode == 0, result.stderr
-    assert "Hello from eeg-envelope-coherence-neuroimage!" in result.stdout
+    assert "Hello from eeg-envelope-coherence-imageneuro!" in result.stdout
