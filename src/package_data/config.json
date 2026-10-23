@@ -1,0 +1,52 @@
+{
+ "raw_transcripts_dir": "/data/gu08wuvu/raw_transcripts",
+ "normalised_transcripts_dir": "/data/gu08wuvu/normalised_transcripts",
+ "raw_waves_dir": "/data/gu08wuvu/raw_waves",
+ "sparrkulee_dir": "/data_nfs/gu08wuvu/datasets/accou2023/",
+ "mfa_output_dir": "/data/gu08wuvu/forced_alignment",
+ "audio_features_dir": "/data/gu08wuvu/audio_features",
+ "eeg_dir": "/data_nfs/gu08wuvu/datasets/accou2023/standardised-flat/eeg",
+ "speech_units_dir": "/data/gu08wuvu/speech_units",
+ "coherence_dir": "/data/gu08wuvu/coherence",
+ "null_coherence_dir": "/data/gu08wuvu/coherence/null",
+ "stimulus_psd_dir": "/data/gu08wuvu/stimulus_psd",
+ "mfa_dictionary": "dutch_cv",
+ "mfa_acoustic_model": "dutch_cv",
+ "whisperx": {
+  "model": "large-v3",
+  "language": "nl",
+  "device": "cuda",
+  "compute_type": "int8"
+ },
+ "elevenlabs": {
+  "api_key": "",
+  "model": "scribe_v1",
+  "language_code": "nl"
+ },
+ "trf_dir": "/data_storage/gu08wuvu/eeg-envelope-coherence-neuroimage/avg/transfer_functions",
+ "references": {
+  "avg": {
+   "coherence_dir": "/data/gu08wuvu/coherence",
+   "null_coherence_dir": "/data/gu08wuvu/coherence/null",
+   "trf_dir": "/data_storage/gu08wuvu/eeg-envelope-coherence-neuroimage/avg/transfer_functions",
+   "onset_trf_dir": "/data_storage/gu08wuvu/eeg-envelope-coherence-neuroimage/avg/onset_transfer_functions",
+   "onset_grid_dir": "/data_storage/gu08wuvu/eeg-envelope-coherence-neuroimage/avg/onset_grid"
+  },
+  "linked_mastoids": {
+   "coherence_dir": "/data_storage/gu08wuvu/eeg-envelope-coherence-neuroimage/linked_mastoids/coherence",
+   "null_coherence_dir": "/data_storage/gu08wuvu/eeg-envelope-coherence-neuroimage/linked_mastoids/coherence/null",
+   "trf_dir": "/data_storage/gu08wuvu/eeg-envelope-coherence-neuroimage/linked_mastoids/transfer_functions",
+   "onset_trf_dir": "/data_storage/gu08wuvu/eeg-envelope-coherence-neuroimage/linked_mastoids/onset_transfer_functions",
+   "onset_grid_dir": "/data_storage/gu08wuvu/eeg-envelope-coherence-neuroimage/linked_mastoids/onset_grid"
+  },
+  "FCz": {
+   "coherence_dir": "/data_storage/gu08wuvu/eeg-envelope-coherence-neuroimage/FCz/coherence",
+   "null_coherence_dir": "/data_storage/gu08wuvu/eeg-envelope-coherence-neuroimage/FCz/coherence/null",
+   "trf_dir": "/data_storage/gu08wuvu/eeg-envelope-coherence-neuroimage/FCz/transfer_functions",
+   "onset_trf_dir": "/data_storage/gu08wuvu/eeg-envelope-coherence-neuroimage/FCz/onset_transfer_functions",
+   "onset_grid_dir": "/data_storage/gu08wuvu/eeg-envelope-coherence-neuroimage/FCz/onset_grid"
+  }
+ },
+ "onset_trf_dir": "/data_storage/gu08wuvu/eeg-envelope-coherence-neuroimage/avg/onset_transfer_functions",
+ "onset_grid_dir": "/data_storage/gu08wuvu/eeg-envelope-coherence-neuroimage/avg/onset_grid"
+}

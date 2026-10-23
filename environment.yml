@@ -1,0 +1,14 @@
+name: eeg-envelope-coherence-neuroimage
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pytest
+  - numpy
+  - requests
+  - tqdm
+  - montreal-forced-aligner
+  - pip:
+      - -e .[dev,transcription]

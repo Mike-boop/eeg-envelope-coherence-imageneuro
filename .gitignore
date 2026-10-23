@@ -1,0 +1,23 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Notebook plot-data caches
+figures/_*.npz
+
+.claude/
+.vscode/
+.python-version
+uv.lock
+
+# nonsense, exploration, and temporary files
+analysis/
+playground/
+exploration/
