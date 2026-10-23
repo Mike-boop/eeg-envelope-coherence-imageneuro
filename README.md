@@ -2,6 +2,8 @@
 
 Code for our manuscript ``Does the frequency dependence of EEG-speech envelope tracking reflect the rates of speech units or pitch?''
 
+The code was revised using Claude Opus 5.5 (Anthropic)
+
 ## Project structure
 
 - `src/eeg_analysis/` — EEG analysis code
